@@ -1,0 +1,219 @@
+
+.end-part{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.wave {
+    margin-top:80rem;
+    display: block;
+    position:relative;
+    height: 72rem;
+    width: 100%;
+    background: #E6FFFD;
+    transform: scale(1, 1);
+    z-index: 1;
+    
+}
+ .wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 110%;
+    width: 55%;
+    height: 40rem;
+    background-color: white;
+    right: -5%;
+    top: -450px;
+    
+    z-index: 1;
+    clip-path: ellipse(100% 55% at 15% 100%);
+}
+
+.wave:after {
+    content: "";
+    display: block;
+    position:absolute ;
+    border-radius: 100%;
+    width: 90%;
+    height:15rem;
+    background-color: #E6FFFD;
+    left: -20%;
+    z-index: 0;
+    top: -220px;
+    clip-path: ellipse(30% 100% at 50% 100%);
+    } 
+    .cards{
+        display: flex;
+        flex-direction: row;
+    position:absolute;
+    z-index:1;
+   width:80;
+   margin-top:-20rem;
+   margin-left: 5rem;
+        
+    }
+    .card{
+        box-shadow: 0px 4px 30px 0px #00000040;
+          display: flex;
+          flex-direction: column;
+        position:static;
+        z-index:1;
+        background-color: white;
+        margin-left:7rem;
+        width: 20rem;
+height: 300px;
+
+    } 
+    .card>h3{
+        margin-left:8px;
+        font-family: Montserrat;
+font-size: 28px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+    }
+    .Line1{
+        font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom:15px;
+
+    }
+    .Line2{
+        font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom:15px;
+    }
+    .Line3{
+        font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom:15px;
+    }
+    .card>button{
+        width: 264px;
+        height: 43px;
+        top: 1602px;
+        left: 166px;
+        border-radius: 6px;
+        margin-left:10%;
+        font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+background: #008DD9;
+
+        
+    }
+    .tag-line3{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: center;
+    width: 509px;
+height: 70px;
+top: 797px;
+left: 465px;
+margin-top:-45rem;
+margin-left:3rem;
+    font-family: Montserrat;
+font-size: 42px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: center;
+}
+.para1{
+    position: absolute;
+    z-index: 1;
+    width: 750px;
+height: 80px;
+top: 1228px;
+left: 256px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+color: #6E6E6E;
+margin-left: 8rem;
+
+margin-top: -67rem;
+}
+.rectangles{
+    width: 962px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top:20rem;
+    margin-left: 50px;
+}
+.rec1>h4,.rec2>h4{
+    font-family: Montserrat;
+font-size: 28px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 0.5rem;
+
+}
+.rec2>p,.rec1>p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}    
+.rec1{
+    
+    width: 373px;
+    height: 226px;
+    top: 2026px;
+    left: 84px;
+    border-radius: 33px;
+    margin-left:10px;
+    background-color: white;
+    box-shadow: 0px 4px 15px 0px #00000040;
+   padding:10px;
+    
+}
+.rec2{
+    width: 373px;
+    height: 226px;
+    top: 2026px;
+    left: 84px;
+    border-radius: 33px;
+    margin-left:30rem;
+    background-color: white;
+    box-shadow: 0px 4px 15px 0px #00000040;
+    padding:10px;
+    margin-top:-6rem;
+    
+}
+.doctor_img{
+    position: absolute;
+    z-index: 1;
+    margin-left:40%;
+    margin-top:-30%;
+    height: 100%;
+    width: 100%;
+}
